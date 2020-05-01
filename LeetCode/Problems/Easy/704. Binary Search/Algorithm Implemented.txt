@@ -1,0 +1,9 @@
+We can solve this issue in two ways.
+
+1. We can do a linear search for each version and identify the first bad version.
+   Time Complexity - O(n)
+   This solution doesn't beacuse it leads to TLE
+
+2. Second way is that we can implement a binary search for all version and identify the first version that results in bad.
+   TimeComplexity - O(log n)
+   This solution was accepted without any TLE
