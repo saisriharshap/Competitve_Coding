@@ -1,0 +1,13 @@
+Hint #1
+---------------
+For each stone, check if it is a jewel.
+
+
+Way of Approach
+--------------------
+
+We loop through stones string and check if each stone is a jewel or not
+
+TimeComplexity - O(m*n)
+where, m - length of stones string
+       n - length of jewels string
